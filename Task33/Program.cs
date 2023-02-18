@@ -26,7 +26,7 @@ void Print(int[] Somearray)
 int inputnumber(string message)
 {
     Console.Write($"{message}: ");
-    int res = int.Parse(Console.ReadLine());
+    int res = int.Parse(Console.ReadLine()!);
     return res;
 }
 bool ArrayNum( int[] Somearray, int checknum)
