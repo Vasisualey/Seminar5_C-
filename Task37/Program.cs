@@ -34,7 +34,7 @@ int[] MultFirstlast(int[] Somearray)
      int[] res = new int [newlength];
 for (int i = 0; i < newlength; i++)
 {
-    if(i != (oldlength -1 -i))
+    if(i != (newlength -1 -i))
     {
         res[i] = Somearray[i] * Somearray[oldlength -1 -i];
     }
